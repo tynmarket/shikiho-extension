@@ -1,0 +1,17 @@
+{
+  "name": "四季報オンラインChrome拡張",
+  "version": "1.0",
+  "description": "右クリックで四季報オンラインを検索するChrome拡張です。",
+  "permissions": ["contextMenus", "tabs", "https://shikiho.jp/*"],
+  "background":{
+    "scripts": ["background.js"]
+  },
+  "browser_action": {},
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "manifest_version": 2
+}
