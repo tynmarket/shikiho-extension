@@ -9,11 +9,6 @@ chrome.contextMenus.create({
 });
 
 chrome.browserAction.onClicked.addListener(function(activeTab){
-  console.log("clicked")
-  const uRL = 'https://site2.sbisec.co.jp/ETGate/';
-  chrome.tabs.create({ url: newURL }, (tab) => {
-    chrome.tabs.executeScript(
-      tab.id,
-      { code: script });
-  });
+  const url = 'https://shikiho.jp/';
+  chrome.tabs.create({ url: url });
 });
