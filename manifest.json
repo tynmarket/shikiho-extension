@@ -1,6 +1,6 @@
 {
   "name": "四季報オンラインサーチ",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "右クリックで四季報オンラインを検索するChrome拡張です。",
   "permissions": ["contextMenus"],
   "background":{
